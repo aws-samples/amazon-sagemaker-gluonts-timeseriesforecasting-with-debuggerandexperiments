@@ -15,9 +15,7 @@ In this [notebook](https://github.com/aws-samples/amazon-sagemaker-gluonts-times
 8.	Evaluate metrics and select a winning candidate
 9.	Run time series forecasts
 
-### Prerequisites
-
-* Setup your Amazon SageMaker Notebook Instance *
+### Prerequisites - Setup your Amazon SageMaker Notebook Instance
 
 To set up your notebook, complete the following steps:
 
@@ -29,7 +27,7 @@ To set up your notebook, complete the following steps:
 5. Choose Terminal.
 6. In the terminal, enter the following code:
 
-git clone https://github.com/aws-samples/amazon-sagemaker-gluonts-timeseriesforecasting-with-debuggerandexperiments
+  git clone https://github.com/aws-samples/amazon-sagemaker-gluonts-timeseriesforecasting-with-debuggerandexperiments
 
 7. Open the notebook Amazon Sagemaker GluonTS time series forecasting.ipynb
 
