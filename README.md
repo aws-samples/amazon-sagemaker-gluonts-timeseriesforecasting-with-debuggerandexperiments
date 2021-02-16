@@ -15,6 +15,25 @@ In this [notebook](https://github.com/aws-samples/amazon-sagemaker-gluonts-times
 8.	Evaluate metrics and select a winning candidate
 9.	Run time series forecasts
 
+### Prerequisites
+
+* Setup your Amazon SageMaker Notebook Instance *
+
+To set up your notebook, complete the following steps:
+
+1. Onboard to Amazon SageMaker Studio with the quick start procedure (https://docs.aws.amazon.com/sagemaker/latest/dg/onboard-quick-start.html).
+2. When you create an AWS Identity and Access Management (http://aws.amazon.com/iam) (IAM) role to the notebook instance, be sure to specify access to Amazon Simple Storage Service (http://aws.amazon.com/s3) (Amazon S3). You can choose Any *S3 Bucket* or specify the S3 bucket you want to enable access to. You can use the AWS-managed policies AmazonSageMakerFullAccess (https://us-west-2.console.aws.amazon.com/iam/home#/policies/arn:aws:iam::aws:policy/AmazonSageMakerFullAccess$jsonEditor) to grant general access to Amazon SageMaker services. 
+
+3. When user is created and is active, choose *Open Studio*.
+4. On the Studio landing page, from the File drop-down menu, choose New.
+5. Choose Terminal.
+6. In the terminal, enter the following code:
+
+git clone https://github.com/aws-samples/amazon-sagemaker-gluonts-timeseriesforecasting-with-debuggerandexperiments
+
+7. Open the notebook Amazon Sagemaker GluonTS time series forecasting.ipynb
+
+
 
 ## Security
 
