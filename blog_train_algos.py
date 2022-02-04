@@ -20,7 +20,7 @@ from gluonts.evaluation.backtest import make_evaluation_predictions, backtest_me
 from gluonts.evaluation import Evaluator
 from gluonts.model.predictor import Predictor
 from gluonts.dataset.common import ListDataset
-from gluonts.trainer import Trainer
+from gluonts.mx.trainer import Trainer
 from gluonts.dataset.multivariate_grouper import MultivariateGrouper
 from smdebug.mxnet import Hook
 
